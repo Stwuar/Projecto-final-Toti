@@ -2,17 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
-  grid-template-columns: 400px;
+  grid-template-areas: none;
   background-color: #000000 ;
   border:1px solid rgb(255, 255, 255);
   
-}
-
-.form {
-  border:300px solid #000000;
- padding: 30px;
 }
 
 .App-header {
@@ -26,37 +19,114 @@
  font-size: calc(10px + 2vmin);
  
 }
+.Titulo{
+ 
+  text-align:center; 
+  
+  align-items: center;
+}
 
 .Nome{
-  position: relative;
+
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
  
 }
 
 .Apellido{
-position: relative ;
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
 }
 
-.Telefone{
- position: relative;
+.Telefone{  
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
 
 }
 
 .Pais{
-  position: relative;
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
 
 }
 
 .Assunto{
-  position: relative;
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
 
 }
 
 .Mensage{
-position: relative;
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .Email{
-  position: relative;
+  width: 100%;
+  margin: 16px 0 24px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: 'notfont_displayregular';
+  font-size: 20px;
+  line-height: 24px;
 
 }
 
