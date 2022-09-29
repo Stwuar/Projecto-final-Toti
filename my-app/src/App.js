@@ -96,9 +96,11 @@ function App() {
           Email: <input type="email" placeholder="Email" value={email} required onChange={(e) => {handleEmailChange(e)}} /><br/></div>
           {/*quando o usuário escreve na caixa de entrada de e-mail , handleEmailChange() 
               função será chamada.*/}
-        <div className="Submit">
-          <input type="Submit" value="Enviar"/>
-          </div>
+        <button class="button">
+          <span class="text">Enviar</span>
+         <i class="ri-check-line icon"></i>
+         </button>
+          
         </form>
       </header>
     </div>
