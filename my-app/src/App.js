@@ -4,7 +4,7 @@ import './App.css';
   
 function App() {
     const [nome , setNome] = useState('');
-    const [Apellido , setApellido] = useState('');
+    const [Sobrenome , setSobrenome] = useState('');
     const [Telefone , setTelefone] = useState('');
     const [Pais , setPais] = useState('');
     const [Assunto , setAssunto] = useState('');
@@ -16,10 +16,10 @@ function App() {
     const handleChange =(e)=>{
       setNome(e.target.value);
     }
-    // função para actualizar o estado de Apellido 
+    // função para actualizar o estado de Sobrenome 
     // entrar pelo usuário no formulário
-    const handleApellidoChange =(e)=>{
-      setApellido(e.target.value);
+    const handleSobrenomeChange =(e)=>{
+      setSobrenome(e.target.value);
     }
     // função para actualizar o estado de Telefone
     // entrar pelo usuário no formulário
@@ -55,7 +55,7 @@ function App() {
         // exibir caixa de alerta com usuário 
         // 'detalhes de 'nome' e 'e-mail'.
         alert('Um formulário foi enviado com Nome :"' + nome +
-        '" ,Apellido :"'+Apellido +'",Telefone :"' + Telefone +
+        '" ,Sobrenome :"'+Sobrenome +'",Telefone :"' + Telefone +
         '" ,Pais :"' + Pais +'" ,Assunto :"' + Assunto +'" ,Mensage :"' + Mensage +'" , and Email :"' + email + '"');
       }
       e.preventDefault();
@@ -68,15 +68,15 @@ function App() {
           {/*quando o usuário enviar o formulário, handleSubmit() 
          função será chamada .*/}
          
-          <div className="Titulo"><h2> Formulário de Contacto </h2></div>
+          <div className="Titulo"><h2> Formulário de Contato </h2></div>
           <div class="wrapper">
             <div className="Nome">
             Nome: <input type="text" placeholder="Nome" value={nome} required onChange={(e)  => {handleChange(e)}} /><br/></div>
             { /*quando o usuário escreve na caixa de entrada de nome, handleChange()
             função será chamada. */}
-            <div className="Apellido">
-            Apellido:<input type="text" placeholder="Apellido" value={Apellido} required onChange={(e) => {handleApellidoChange(e)}} /><br/></div>
-            { /*quando o usuário escreve na caixa de entrada de Apellido , handleApellidoChange()
+            <div className="Sobrenome">
+            Sobrenome:<input type="text" placeholder="Sobrenome" value={Sobrenome} required onChange={(e) => {handleSobrenomeChange(e)}} /><br/></div>
+            { /*quando o usuário escreve na caixa de entrada de Sobrenome , handleSobrenomeChange()
              função será chamada. */}
             <div className="Telefone">
             Telefone: <input type="text" placeholder="Telefone" value={Telefone} required onChange={(e) => {handleTelefoneChange(e)}} /><br/></div>
