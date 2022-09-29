@@ -67,40 +67,44 @@ function App() {
         <form onSubmit={(e) => {handleSubmit(e)}}>
           {/*quando o usuário enviar o formulário, handleSubmit() 
          função será chamada .*/}
+         
           <div className="Titulo"><h2> Formulário de Contacto </h2></div>
-          <div className="Nome">
+          <div class="wrapper">
+            <div className="Nome">
             Nome: <input type="text" placeholder="Nome" value={nome} required onChange={(e)  => {handleChange(e)}} /><br/></div>
-         { /*quando o usuário escreve na caixa de entrada de nome, handleChange()
-              função será chamada. */}
-         <div className="Apellido">
-          Apellido:<input type="text" placeholder="Apellido" value={Apellido} required onChange={(e) => {handleApellidoChange(e)}} /><br/></div>
+            { /*quando o usuário escreve na caixa de entrada de nome, handleChange()
+            função será chamada. */}
+            <div className="Apellido">
+            Apellido:<input type="text" placeholder="Apellido" value={Apellido} required onChange={(e) => {handleApellidoChange(e)}} /><br/></div>
             { /*quando o usuário escreve na caixa de entrada de Apellido , handleApellidoChange()
-               função será chamada. */}
-         <div className="Telefone">
-          Telefone: <input type="text" placeholder="Telefone" value={Telefone} required onChange={(e) => {handleTelefoneChange(e)}} /><br/></div>
+             função será chamada. */}
+            <div className="Telefone">
+            Telefone: <input type="text" placeholder="Telefone" value={Telefone} required onChange={(e) => {handleTelefoneChange(e)}} /><br/></div>
             { /*quando o usuário escreve na caixa de entrada de Telefone , handleTelefoneChange()
-               função será chamada. */} 
-        <div className="Pais">
-          Pais: <input type="text" placeholder="Pais" value={Pais} required onChange={(e) => {handlePaisChange(e)}} /><br/></div>
+             função será chamada. */} 
+            <div className="Pais">
+             Pais: <input type="text" placeholder="Pais" value={Pais} required onChange={(e) => {handlePaisChange(e)}} /><br/></div>
             { /*quando o usuário escreve na caixa de entrada de Pais , handlePaisChange()
                função será chamada. */}
-         <div className="Assunto">
-          Assunto:  <input type="text" placeholder="Assunto" value={Assunto} required onChange={(e) => {handleAssuntoChange(e)}} /><br/></div>
+            <div className="Assunto">
+            Assunto:  <input type="text" placeholder="Assunto" value={Assunto} required onChange={(e) => {handleAssuntoChange(e)}} /><br/></div>
             { /*quando o usuário escreve na caixa de entrada de Assunto , handleAssuntoChange()
-               função será chamada. */}
-         <div className="Mensage">
-          Mensage: <input type="text" placeholder="Mensage" value={Mensage} required onChange={(e) => {handleMensageChange(e)}} /><br/></div>
+           função será chamada. */}
+           <div className="Mensage">
+            Mensage: <input type="text" placeholder="Mensage" value={Mensage} required onChange={(e) => {handleMensageChange(e)}} /><br/></div>
             { /*quando o usuário escreve na caixa de entrada de Mensage , handleMensageChange()
-               função será chamada. */}      
+           função será chamada. */} 
+         </div>     
          <div className="Email">
           Email: <input type="email" placeholder="Email" value={email} required onChange={(e) => {handleEmailChange(e)}} /><br/></div>
           {/*quando o usuário escreve na caixa de entrada de e-mail , handleEmailChange() 
               função será chamada.*/}
+      
         <button class="button">
           <span class="text">Enviar</span>
          <i class="ri-check-line icon"></i>
          </button>
-          
+        
         </form>
       </header>
     </div>

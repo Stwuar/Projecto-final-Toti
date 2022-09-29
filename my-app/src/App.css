@@ -19,6 +19,13 @@
  font-size: calc(10px + 2vmin);
  
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  
+}
+
 .Titulo{
  
   text-align:center; 
@@ -116,6 +123,7 @@
 }
 
 .Email{
+  text-align: center;
   width: 100%;
   margin: 16px 0 24px;
   padding-bottom: 16px;
@@ -146,7 +154,8 @@
 }
 
 .button *{
-  position: absolute;
+  text-align: center;
+  position: absult;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -159,7 +168,7 @@
 }
 
 .button:focus{
-  width: 30px;
+  width: 60px;
   background-color: #44c08a;
   border-radius: 50%;
 
