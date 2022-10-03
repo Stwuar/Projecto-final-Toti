@@ -3,14 +3,14 @@
   justify-content: center;
   align-items: center;
   grid-template-areas: none;
-  background-color: #000000 ;
-  border:1px solid rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border:1px solid rgb(0, 0, 0);
   
 }
 
 .App-header {
-  background-color: #000000 ;
-  color: #ffffff;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  color: #000000;
  min-height: 100vh;
  display: flex;
  
@@ -37,12 +37,12 @@
 
   width: 100%;
   margin: 16px 0 24px;
-  caret-color: #ff0000;
+  caret-color: #000000;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -55,10 +55,10 @@
   caret-color: #ff0000;
   margin: 16px 0 24px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -70,10 +70,10 @@
   caret-color: #ff0000;
   margin: 16px 0 24px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -86,10 +86,10 @@
   caret-color: #ff0000;
   margin: 16px 0 24px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -102,10 +102,10 @@
   caret-color: #ff0000;
   margin: 16px 0 24px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -118,10 +118,10 @@
   caret-color: #ff0000;
   margin: 16px 0 24px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -134,10 +134,10 @@
   caret-color: #ff0000;
   margin: 16px 0 24px;
   padding-bottom: 16px;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-weight: 400;
   font-family: 'notfont_displayregular';
   font-size: 20px;
@@ -147,6 +147,7 @@
 
 .button{
  position: relative;
+ top: 50%;
  caret-color: #ff0000;
  width: 70px;
  height: 30px;
@@ -162,8 +163,8 @@
 }
 
 .button *{
-  text-align: center;
-  position: absult;
+  
+  position: absolute; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
