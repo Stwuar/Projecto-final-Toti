@@ -1,20 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css'; 
-import Formulario from './formulario'; 
-import Navegaçao from './navegacionApi';  
+import './index.css'
+import ConteudoTotal from './componentes/Cabeçalho';
+import Formulario from './formulario';
+import "./componentes/apps.css"
 
-function App(){
-  return (
-    <div>
 
-      
-      
-     <Formulario/>
-     <Navegaçao/>
+function App() {
     
-     
-     
-    </div>
+  return (
+    
+
+  <div>
+      <header>
+      <ConteudoTotal/>
+      </header>
+      <main>
+      <Formulario/> 
+      </main> 
+      </div>
   );
 }
 
