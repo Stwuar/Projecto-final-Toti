@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css'; 
 import './index.css'
 import ConteudoTotal from './componentes/Cabeçalho';
-import Formulário from './formulario';
+import Formulario from './formulario';
 import "./componentes/apps.css"
 
 
@@ -16,7 +16,7 @@ function App() {
       <ConteudoTotal/>
       </header>
       <main>
-      <Formulário/> 
+      <Formulario/> 
       </main> 
       </div>
   );

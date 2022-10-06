@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 
 
 
-function Formulário() {
+function Formulario() {
   const [nome , setNome] = useState('');
   const [Sobrenome , setSobrenome] = useState('');
   const [Telefone , setTelefone] = useState('');
@@ -113,4 +113,4 @@ return (
 );
 }
 
-export default Formulário;
+export default Formulario;

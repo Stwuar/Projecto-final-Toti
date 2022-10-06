@@ -32,8 +32,8 @@ const ConteudoTotal = () =>{
          PhoneNumber="+55117000000"
          />
        <MyPrincipal
-         image= "stwr.jpg"
-         name= "Stwar"
+         image= "stwuar.jpg"
+         name= "Stwuar"
          EmailAdress= "stwr@gmail.com"
          PhoneNumber="+55118000000"
          />
@@ -44,4 +44,4 @@ const ConteudoTotal = () =>{
 
   );
 };
-export default ConteudoTotal
+export default ConteudoTotal;

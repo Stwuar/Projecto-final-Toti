@@ -17,4 +17,4 @@ function MyMenu() {
             </nav>
         </div>);
 }
-export default MyMenu
+export default MyMenu;
