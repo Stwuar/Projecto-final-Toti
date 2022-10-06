@@ -1,0 +1,24 @@
+{
+  "contato": [
+    {
+      "nome": "Berlincia Saintulien",
+      "email": "berlincia@teste.com",
+      "id": 5
+    },
+    {
+      "nome": "Stwuar Meneses",
+      "email": "stwuar@teste.com",
+      "id": 7
+    },
+    {
+      "nome": "Darbis Medina",
+      "email": "darbis@teste.com",
+      "id": 8
+    },
+    {
+      "nome": "Mawete Kiala Rafael",
+      "email": "Mawete@teste.com",
+      "id": 10
+    }
+  ]
+}
