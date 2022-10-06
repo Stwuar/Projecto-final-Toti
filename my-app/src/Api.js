@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import {Table, Button, Form, Modal} from "react-bootstrap";
 
