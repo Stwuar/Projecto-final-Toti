@@ -14,6 +14,7 @@ function MyPrincipal(props) {
                    <h3> {props.name}</h3>
                     <p> {props.EmailAdress}  </p>
                      <p> {props.PhoneNumber} </p>
+            
                  </span>
              </div>
              

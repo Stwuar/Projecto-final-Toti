@@ -1,6 +1,6 @@
 import React from "react";
 import MyPrincipal from "../componentes/main"
-import MyFooter from "../componentes/footer";
+import MyFooter from "./Redes";
 import MyMenu from "../componentes/header";
 import "../componentes/apps.css"
 
@@ -17,6 +17,7 @@ const ConteudoTotal = () =>{
       name= "Berlincia"
       EmailAdress= "sberlincia@gmail.com"
       PhoneNumber="+5548996689577"
+      
       />
         <MyPrincipal
          image= "darbis.jpg"

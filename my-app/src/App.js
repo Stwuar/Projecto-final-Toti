@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css'; 
 import './index.css'
+//import Redes from './componentes/Redes';//
 import ConteudoTotal from './componentes/Cabeçalho';
 import Formulario from './formulario';
 import "./componentes/apps.css"
@@ -19,6 +20,7 @@ function App() {
       <Formulario/>
       </main> 
       <Navegaçao/>
+      {/*<Redes/>*/}
       </div>
   );
 }
