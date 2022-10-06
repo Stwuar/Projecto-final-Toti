@@ -15,27 +15,27 @@ const ConteudoTotal = () =>{
         <MyPrincipal 
       image= "berlincia.jpg"
       name= "Berlincia"
-      EmailAdress= "ber@gmail.com"
-      PhoneNumber="+55115000000"
+      EmailAdress= "sberlincia@gmail.com"
+      PhoneNumber="+5548996689577"
       />
         <MyPrincipal
          image= "darbis.jpg"
-         name= "Darbis"
-         EmailAdress= "Dar@gmail.com"
-         PhoneNumber="+55116000000"
+         name= "Darbis .M"
+         EmailAdress= "darbis.medinaadames974@gmail.com"
+         PhoneNumber="+5518988169281"
          />
 
         <MyPrincipal
          image= "mawete.jpg"
-         name= "Mawete"
-         EmailAdress= "mawe@gmail.com"
-         PhoneNumber="+55117000000"
+         name= "Mawete .R"
+         EmailAdress= "maweterafael28@gmail.com"
+         PhoneNumber="+5511970295694"
          />
        <MyPrincipal
          image= "stwuar.jpg"
-         name= "Stwuar"
-         EmailAdress= "stwr@gmail.com"
-         PhoneNumber="+55118000000"
+         name= "Stwuar .M"
+         EmailAdress= "stwuarcarreno@gmail.com"
+         PhoneNumber="+5554999161431"
          />
       </main>
       
